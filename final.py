@@ -114,7 +114,7 @@ ani_network= FuncAnimation(fig_network,update_network_plot,frames=np.arange(0,10
 ani_disk= FuncAnimation(fig_disk,update_disk_plot,frames=np.arange(0,100),interval=1000)
 ani_process= FuncAnimation(fig_process,update_process_plot,frames=np.arange(0,100),interval=1000)
 
-#show the plot
+#show the graph
 plt.show()
 
 
